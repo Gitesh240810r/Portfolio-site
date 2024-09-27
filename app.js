@@ -73,14 +73,14 @@ function initScrollAnimation() {
 
 function populateHighlights() {
     const highlights = [
-        { title: "Record-Breaking 100m Sprint", description: "Usain Bolt's successor sets a new world record.", image: "/assets/OH1.webp", link: "https://www.youtube.com/watch?v=VhjvNjULeNY" },
-        { title: "Artistic Gymnastics Perfection", description: "A flawless routine earns a perfect 10.", image: "/assets/OH2.webp", link: "https://www.youtube.com/watch?app=desktop&v=bHQd6-42SHY" },
-        { title: "Marathon Miracle", description: "Underdog athlete wins gold in a thrilling finish.", image: "/assets/OH3.jpeg", link: "https://www.espn.in/olympics/story/_/id/40803378/tamirat-tola-wins-gold-men-marathon" },
-        { title: "Diving Triumph", description: "A stunning dive secures a gold medal.", image: "/assets/OH4.png", link: "https://showcasemagazine.medium.com/team-gb-clinches-first-medal-at-2024-olympics-with-bronze-in-womens-3m-synchronized-springboard-cda73d282a7f" },
-        { title: "Team Relay Victory", description: "A last-minute surge leads to a historic relay win.", image: "/assets/OH5.jpeg", link: "https://apnews.com/article/2024-olympics-richardson-3bea5e3c280d04b034f4538eac10952b" },
-        { title: "Fencing Showdown", description: "An epic duel ends with a nail-biting finish.", image: "/assets/OH6.webp", link: "https://timesofindia.indiatimes.com/sports/paris-olympics-2024/paris-olympic-fencing-world-number-ones-suffer-major-upsets-before-quarter-finals/articleshow/112114657.cms" },
-        { title: "Swimming Sensation", description: "A young swimmer breaks multiple records in one event.", image: "/assets/OH7.webp", link: "https://www.foxnews.com/sports/16-year-old-canadian-swimming-sensation-sets-world-record-trials" },
-        { title: "Weightlifting Wonder", description: "An athlete lifts an astonishing weight to claim gold.", image: "/assets/OH8.jpg", link: "https://ironmind.com/news/Ilya-Ilin-Returns-to-Weightlifting-a-Winner-Again/" },
+        { title: "Record-Breaking 100m Sprint", description: "Usain Bolt's successor sets a new world record.", image: "./assets/OH1.webp", link: "https://www.youtube.com/watch?v=VhjvNjULeNY" },
+        { title: "Artistic Gymnastics Perfection", description: "A flawless routine earns a perfect 10.", image: "./assets/OH2.webp", link: "https://www.youtube.com/watch?app=desktop&v=bHQd6-42SHY" },
+        { title: "Marathon Miracle", description: "Underdog athlete wins gold in a thrilling finish.", image: "./assets/OH3.jpeg", link: "https://www.espn.in/olympics/story/_/id/40803378/tamirat-tola-wins-gold-men-marathon" },
+        { title: "Diving Triumph", description: "A stunning dive secures a gold medal.", image: "./assets/OH4.png", link: "https://showcasemagazine.medium.com/team-gb-clinches-first-medal-at-2024-olympics-with-bronze-in-womens-3m-synchronized-springboard-cda73d282a7f" },
+        { title: "Team Relay Victory", description: "A last-minute surge leads to a historic relay win.", image: "./assets/OH5.jpeg", link: "https://apnews.com/article/2024-olympics-richardson-3bea5e3c280d04b034f4538eac10952b" },
+        { title: "Fencing Showdown", description: "An epic duel ends with a nail-biting finish.", image: "./assets/OH6.webp", link: "https://timesofindia.indiatimes.com/sports/paris-olympics-2024/paris-olympic-fencing-world-number-ones-suffer-major-upsets-before-quarter-finals/articleshow/112114657.cms" },
+        { title: "Swimming Sensation", description: "A young swimmer breaks multiple records in one event.", image: "./assets/OH7.webp", link: "https://www.foxnews.com/sports/16-year-old-canadian-swimming-sensation-sets-world-record-trials" },
+        { title: "Weightlifting Wonder", description: "An athlete lifts an astonishing weight to claim gold.", image: "./assets/OH8.jpg", link: "https://ironmind.com/news/Ilya-Ilin-Returns-to-Weightlifting-a-Winner-Again/" },
     ];
 
     const highlightsGrid = document.getElementById('highlights-grid');
