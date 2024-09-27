@@ -130,19 +130,20 @@ function populateHighlights() {
 }
 
 function initMedalSearch() {
-    const searchInput = document.getElementById("SearchInput")
-    const searchResults = document.getElementById("SearchContent")
+    const searchInput = document.getElementById("SearchInput");
+    const searchResults = document.getElementById("SearchContent");
+    searchInput.style.color = 'black';
 
-    const medalSection = document.getElementById('medals');
-    
     searchInput.addEventListener('input', (e) => {
         const searchTerm = e.target.value.toLowerCase();
         const filteredCountries = medalData.filter(country => 
             country.country.toLowerCase().includes(searchTerm)
         );
-        displaySearchResults(filteredCountries, searchResults);
+        displaySearchResults(filteredCountries, searchResults, searchInput);
     });
 }
+
+
 
 function displaySearchResults(countries, container) {
     container.innerHTML = '';
